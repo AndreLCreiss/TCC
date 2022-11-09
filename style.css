@@ -1,0 +1,212 @@
+:root {
+    --bg-body: rgb(229, 225, 225);
+    --color-font: #131416;
+    --color-button: blue;
+    --color-card: 1E212C;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+}
+
+Header .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 35px;
+
+}
+
+.logo p {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 35px;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.action-title h1 {
+    font-size: 25px;
+    margin-left: 50px;
+    color: var(--color-font)
+}
+
+.action-title p {
+    font-size: 20px;
+    margin-left: 50px;
+    color: var(--color-font)
+}
+
+.ebook img {
+    margin-left: 100px;
+    width: 900px;
+    height: auto;
+
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.cards {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+
+}
+
+.card img {
+    height: 200px;
+    height: 200px;
+    border-radius: 70%;
+    border: 5px solid blue;
+}
+
+.section-3 {
+    display: flex;
+    margin-top: 400px;
+    justify-content: space-evenly;
+
+}
+
+.action-title-2 h1 {
+    font-size: 25px;
+    margin-left: 50px;
+    color: var(--color-font)
+}
+
+.action-title-2 p {
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--color-font)
+}
+
+.ebook-1 img {
+
+    width: 900px;
+    height: 600px;
+    margin-right: 40px
+}
+ 
+.section-4 {
+   display: flex;
+   
+    
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2.0rem;
+    width: 60px;
+    margin: 2rem;
+
+}
+ .section-4 form {
+    justify-content: left;
+    align-items:left;
+    display: flex;
+    width: 5%;
+    flex-direction: row;
+
+}
+.section-4 form label{
+    height: 20px;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+   
+}
+.section-4 form input{
+
+    padding: 10px 150px;
+    outline: none;
+    border: solid blue 1px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.section-4 form input:focus{
+border-radius: 16px;
+}
+ select {
+    
+    padding: 10px 100px;
+    outline: none;
+    border: solid blue 1px;
+    font-size: 20px;
+    margin-top: 200px;
+   align-content:left;
+ }
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid blue;
+    transition: all 1s;
+    margin-bottom: 16px;
+
+}
+form button:hover{
+    background: #2699FB;
+    color: black;
+    border-radius: 16px;
+}
+
+
+
+
+ footer{
+    background: linear-gradient(90deg, #005A9C, #2699FB);
+    display: flex;
+    justify-content: center;/* Alinhamento na horizontal se flex direction for row(vem como padrão */
+     
+    color: white;
+    font-size: 18px;
+
+    padding: 30px 0px 30px 0px; /* espaçamento interno, ao contrario da margin */
+}
+@media (max-widt:420px){
+
+}
