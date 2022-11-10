@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,12 @@
     <link rel="shortcut icon" href="imagens/favicon2.ico" type="image/x-icon">
     <title>Fale Conosco</title>
 </head>
-<body>
-    
-    
 
-  
+<body class="topo">
+
+
+
+
     <section class="section-4">
         <h2> Fale Conosco </h2>
 
@@ -22,31 +24,42 @@
 
             <label>Email</label>
             <input type="email" name="email" placeholder="Digite seu email">
-       
+
+            <label>Endereço</label>
+            <input type="text" name="endereço" placeholder="Digite seu endereço">
+
+            <label>Telefone</label>
+            <input type="text" number="telefone" placeholder="Digite seu Telefone">
 
 
-    <select id="especialidade">
-        <option> Selecione a Especialidade</option>
-        <option>Odontologia</option>
-        <option>Ginecologia</option>
-        <option>Vacinação</option>
-        <option>Clínica Geral</option>
-        <option>Pediatria</option>
-        <option>Exames</option>
-    </select>
+
+            <select id="especialidade">
+                <option> Selecione a Especialidade</option>
+                <option>Odontologia</option>
+                <option>Ginecologia</option>
+                <option>Vacinação</option>
+                <option>Clínica Geral</option>
+                <option>Pediatria</option>
+                <option>Exames</option>
+            </select>
 
 
-    <label>Mensagem</label>
-    <textarea name="message" cols="60" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
 
-    <button type="submit">Enviar</button>
-    <input type="hidden" nome="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
-    <!--Vai para outra pagina de Obrigado-->
-</form>
+            <button class="btn">
+                <a href="obrigado.html" target="_blank">
+                    Enviar
+                </a>
+            </button>
+            <!--Vai para outra pagina de Obrigado-->
+        </form>
 
-</section>
+    </section>
+</body>
+
 <footer>
     Grupo 3 - UBS Imersão Tech | Todos os direitos reservados - Versão 1.0.0
 </footer>
-</body>
+
 </html>

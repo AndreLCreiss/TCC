@@ -20,14 +20,15 @@ Header .logo {
     justify-content: left;
     align-items: center;
     margin-left: 20px;
-    margin-top: 35px;
+    margin-right: 20px;
+    margin-top: 5px;
     border: 1px #2699FB solid;
     background-color: #a9ceee;
 }
 
 .logo p {
     display: flex;
-    justify-content: left;
+    justify-content:right;
     align-items: center;
     margin-left: 20px;
     margin-top: 35px;
@@ -40,6 +41,17 @@ Header .logo {
     height: 100px;
     margin-right: 40px;
 }
+.mapa{
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+    } /* container da imagem do mapa*/
+
+.ebook-2 img {
+    width: 500px;
+    height: 300px;
+    margin-right: 40px    
+} /* imagem do mapa*/
 
 .section-1 {
     display: flex;
@@ -149,17 +161,13 @@ Header .logo {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
-
-
-
 }
 
 .section-4 form label {
+    margin-top: 50px;
     height: 20px;
     flex-direction: column;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 4px;
 
 
@@ -171,7 +179,7 @@ Header .logo {
     outline: none;
     border: solid blue 1px;
     margin-bottom: 4px;
-    font-size: 20px;
+    font-size: 15px;
     transition: all 0.5s;
 }
 
@@ -193,9 +201,10 @@ select {
 }
 
 form textarea {
+    margin-top: 50px;
     padding: 10px;
     outline: none;
-    border: 0;
+    border: 1px solid blue;
     font-size: 15px;
     margin-bottom: 30px;
     transition: all a.5s;
@@ -213,6 +222,10 @@ form button {
     border: 2px solid blue;
     transition: all 1s;
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
 
 }
 
@@ -222,49 +235,100 @@ form button:hover {
     border-radius: 16px;
 }
 
-.btn {
+.btn1 {
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
     padding: 10px 40px;
-    width: 200px;
-    color: #ffff;
-    background: blue;
+    width: 250px;
+    background: rgb(108, 108, 204);
     border: 1px solid rgb(212, 194, 194);
     border-radius: 20px;
     text-align: center;
     user-select: none;
     cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(153, 153, 224);
+}
+
+a {
+
+
+    text-decoration: none;
 
 }
 
-.btn:hover {
+.btn1:hover {
     background: rgb(60, 120, 218);
     transition: background 1s;
-
-
 }
 
-
-footer {
-    background: linear-gradient(90deg, #005A9C, #2699FB);
-    display: flex;
-    justify-content: center;
-    /* Alinhamento na horizontal se flex direction for row(vem como padrão */
-    margin-top: 100px;
-    color: white;
-    font-size: 15px;
-
-    padding: 30px 0px 30px 0px;
-    /* espaçamento interno, ao contrario da margin */
-}
-.main{
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #a9ceee;
     flex-direction: column;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.paragrafo {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(8, 9, 10);
+}
+
+
+
+.topo {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn2 {
+    display: block;
+    height: 50px;
+    margin-top: 000px;
+    padding: 10px 10px;
+    width: 100px;
+    background: rgb(108, 108, 204);
+    border: 1px solid rgb(171, 155, 155);
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(83, 83, 94);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background: rgb(60, 120, 218);
+    transition: background 1s;
+}
+footer {
+    background: linear-gradient(90deg, #005A9C, #2699FB);
+    display: flex;
+    width: 100%;
+    justify-content: center;/* Alinhamento na horizontal se flex direction for row(vem como padrão */
+    margin-top: 100px;
+    color: white;
+    font-size: 15px;
+    padding: 25px 0px 25px 0px;/* espaçamento interno, ao contrario da margin */
 }
 @media (max-widt:420px) {}
