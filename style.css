@@ -48,9 +48,9 @@ Header .logo {
 
 .logo img {
     /* imagem do G3*/
-    width: 100px;
-    height: 100%;
-    margin-left: 10px;
+    width: 150px;
+    height: 90%;
+    margin-left: 5px;
     border-radius: 16px;
 }
 
@@ -69,6 +69,7 @@ h1 {
     /* 1º container*/
     display: flex;
     margin-top: 50px;
+    flex-direction: column;
 
 }
 
@@ -76,47 +77,54 @@ h1 {
 
 .action-title p {
     /* texto A unidade basica...*/
-
+margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 15px;
     min-width: 50px;
-    max-width: 300px;
-    width: 80%;
+    max-width: 800px;
+    width: 100%;
+
+
 
 
 }
 
 .ebook img {
     /* imagem faixada*/
-    margin-left: 10px;
     width: 100%;
     height: auto;
     border-radius: 16px;
-    max-width: 400px;
-
+    max-width: 800px;
+    margin-top: 0;
+    justify-content: center;
 }
 
 .mapa {
     /* container da imagem do mapa*/
     display: flex;
     margin-top: 10px;
-    justify-content:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
+.mapa p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 
+}
 
-.ebook-2 img {
+.ebook-2 iframe {
     /* imagem do mapa*/
-
-
     height: 200px;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
-    margin-right: 180px;
     border-radius: 16px;
     border: #005A9C solid 1px;
+    justify-content: center;
 
 }
 
@@ -132,7 +140,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+
 }
 
 .card-1 {
@@ -165,7 +173,7 @@ h1 {
     height: 100px;
     border: 1px solid blue;
     border-radius: 50%;
- 
+
 }
 
 .card-1 h1 {
@@ -209,7 +217,7 @@ h1 {
 
 .action-title-2 p {
     /* texto nossa estrutura*/
-font-size: 15px;
+    font-size: 15px;
     min-width: 50px;
     max-width: 300px;
     width: 100%;
@@ -267,9 +275,6 @@ a {
 }
 
 
-
-
-
 footer {
     /* rodapé */
     background: linear-gradient(90deg, #005A9C, #2699FB);
@@ -277,11 +282,21 @@ footer {
     width: 100%;
     justify-content: center;
     /* Alinhamento na horizontal se flex direction for row(vem como padrão */
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
     font-size: 12px;
-    padding: 20px 0px 20px 0px;
+    padding: 10x 0px 10px 0px;
     /* espaçamento interno, ao contrario da margin */
+}
+footer img {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 20px;
+    justify-content:left;
+    
+
 }
 
 
@@ -326,7 +341,7 @@ footer {
         width: auto;
         align-items: center;
         text-align: center;
-        margin-top: 0;
+        margin-top: 50px;
     }
 
     .ebook-2 img {
@@ -335,12 +350,13 @@ footer {
 
         margin-top: 50px;
     }
+
     .mapa {
         /* container da imagem do mapa*/
         display: flex;
         margin-top: 10px;
-        justify-content:center;
-        margin-left: 80px;
+        justify-content: center;
+        margin-left: 0px;
     }
 
     .section-3 {
@@ -358,7 +374,7 @@ footer {
         display: flex;
         align-items: center;
         flex-direction: column;
-       
+
 
     }
 
