@@ -7,7 +7,7 @@ body {
 }
 
 .topo {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 40px;
+    padding: 10px 30px;
     background: #b4cee0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 16px;
@@ -31,7 +31,6 @@ body {
 
 .section-4 h1 {
     /* Titulo Fale Conosco*/
-    margin-top: 10px;
     color: #071827;
     font-size: 30px;
     margin: 2rem;
@@ -43,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
+    
 
 }
 
@@ -61,13 +61,14 @@ body {
 .section-4 form input {
     /* caixa de digitar */
 
-    padding: 10px 100px;
+    
     outline: none;
     border: solid blue 1px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     font-size: 15px;
     transition: all 0.5s;
     text-align: center;
+ 
 }
 
 .section-4 form input:focus {
@@ -81,7 +82,7 @@ select {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding: 5px 50px;
+    padding: 10px 125px;
     outline: none;
     border: solid blue 1px;
     font-size: 15px;
@@ -156,11 +157,11 @@ footer {
 
     .section-4 form input {
 
-        padding: 10px 90px;
+        padding: 5px 90px;
         outline: none;
         border: solid blue 1px;
         margin-bottom: 4px;
-        font-size: 10px;
+        font-size: 15px;
         transition: all 0.5s;
         text-align: center;
     }
@@ -178,6 +179,16 @@ footer {
         margin-top: 5px;
         align-content: left;
         text-align: center;
+    }
+    form button {
+        /* botão Enviar*/
+        padding: 10px 5px 10px 5px;
+        cursor: pointer;
+        font-size: 15px;
+        background: transparent;
+        border: 1px solid blue;
+        transition: all 1s;
+        margin-bottom: 10px;
     }
 
     footer {

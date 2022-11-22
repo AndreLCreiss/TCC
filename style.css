@@ -10,6 +10,7 @@ main {
     height: auto;
     min-width: 320px;
     max-width: 900px;
+    justify-content: center;
 }
 
 Header .logo {
@@ -60,9 +61,6 @@ h1 {
     font-size: 30px;
     margin-left: 50px;
     margin-top: 50px;
-
-
-
 }
 
 .section-1 {
@@ -70,24 +68,20 @@ h1 {
     display: flex;
     margin-top: 50px;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 
 
 .action-title p {
     /* texto A unidade basica...*/
-margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
     margin-right: 50px;
     font-size: 15px;
     min-width: 50px;
     max-width: 800px;
     width: 100%;
-
-
-
-
 }
 
 .ebook img {
@@ -96,9 +90,37 @@ margin-top: 50px;
     height: auto;
     border-radius: 16px;
     max-width: 800px;
-    margin-top: 0;
     justify-content: center;
+    margin-left: 60px;
 }
+.clique {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: 5px;
+    padding: 10px 30px;
+    width: 200px;
+    background: rgb(128, 128, 209);
+    border: 1px solid rgb(212, 194, 194);
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgb(82, 82, 167);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 16px;
+
+}
+.clique:hover {
+    /* efeito de mudança de cor do botão fale conosco*/
+    background: rgb(60, 120, 218);
+    transition: background 1s;
+}
+ h4 {
+    text-align: center;
+ }
 
 .mapa {
     /* container da imagem do mapa*/
@@ -109,7 +131,7 @@ margin-top: 50px;
     text-align: center;
 }
 
-.mapa p {
+.mapa p { /* texto abaixo da imagem mapa*/
     display: flex;
     text-align: center;
     justify-content: center;
@@ -123,9 +145,8 @@ margin-top: 50px;
     max-width: 600px;
     width: 100%;
     border-radius: 16px;
-    border: #005A9C solid 1px;
     justify-content: center;
-
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .section-2 {
@@ -151,21 +172,16 @@ margin-top: 50px;
     width: 600px;
     height: 200px;
     width: 100%;
-
-
 }
 
 .card-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     width: 600px;
     height: 200px;
     width: 100%;
-
-
-
 }
 
 
@@ -173,33 +189,42 @@ margin-top: 50px;
     height: 100px;
     border: 1px solid blue;
     border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
 }
 
 .card-1 h1 {
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
 
 .card-1 p {
     font-size: 15px;
+    margin-top: 0px;
 }
 
 .card-2 img {
     height: 100px;
     border: 1px solid blue;
     border-radius: 50%;
+    margin-top: 40px;
+    
 }
 
 .card-2 h1 {
     font-size: 20px;
+    margin-top: 30px;
 }
 
 .card-2 p {
     font-size: 15px;
+    margin-top: 0;
 }
 
 .section-3 {
+    /* container 3*/
     display: flex;
     margin-top: 100px;
     justify-content: space-evenly;
@@ -210,9 +235,6 @@ margin-top: 50px;
     /* titulo nossa estrutura*/
     font-size: 20px;
     margin-left: 50px;
-
-
-
 }
 
 .action-title-2 p {
@@ -221,18 +243,17 @@ margin-top: 50px;
     min-width: 50px;
     max-width: 300px;
     width: 100%;
-
-
 }
 
 .ebook-1 img {
     /* imagem da nossa estrutura*/
     width: 100%;
-    margin-left: 50px;
+    margin-left: 40px;
     width: 400px;
-    height: 250px;
+    height: 400px;
     margin-right: 40px;
     border-radius: 16px;
+    margin-top: 120px;
 }
 
 
@@ -250,7 +271,7 @@ a {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px 40px;
     width: 250px;
     background: rgb(128, 128, 209);
@@ -260,7 +281,8 @@ a {
     user-select: none;
     cursor: pointer;
     background: transparent;
-    border: 3px solid rgb(82, 82, 167);
+    border: 1px solid rgb(82, 82, 167);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 a {
@@ -282,43 +304,64 @@ footer {
     width: 100%;
     justify-content: center;
     /* Alinhamento na horizontal se flex direction for row(vem como padrão */
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
     font-size: 12px;
     padding: 10x 0px 10px 0px;
     /* espaçamento interno, ao contrario da margin */
 }
+
 footer img {
+    /* imagem do grupo 3 no rodapé*/
     display: flex;
-    width: 60px;
-    height: 50px;
-    border-radius: 8px;
-    margin-right: 20px;
-    justify-content:left;
-    
+    width: 40px;
+
+    border-radius: 7px;
+    margin-left: 10px;
+
+
 
 }
 
 
 @media (max-width: 750px) {
     body {
+        /* corpo total da pagina*/
         margin: 0;
         background-size: 500%;
     }
+    Header .logo {
+        /* cabeçalho */
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+        margin: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 1px #2699FB solid;
+        background-image: url(./imagens/background-logo.jpeg);
+        border-radius: 16px;
+        margin-top: 10px;
+    }
 
     .logo img {
-        margin-left: 10px;
+        /* imagem Novembro azul*/
+        margin-left: 5px;
         border-radius: 16px;
+        width: 100px;
     }
 
     .logo h1 {
-        font-size: 20px;
+        /* titulo UBS */
+        font-size: 15px;
         margin-left: 10px;
         margin-top: 5px;
         text-align: center;
     }
 
     .logo p {
+        /* Endereço*/
         font-size: 10px;
         margin-left: 5px;
         margin-top: 5px;
@@ -326,29 +369,30 @@ footer img {
     }
 
     .section-1 {
+        /* container 1*/
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .ebook img {
+        /* imagem faixada*/ 
+        max-width: 400px;
+        margin-left: 10px;
+           }
 
     h1 {
-        font-size: 30px;
+        /* titulo seja bem vindo*/
+        font-size: 25px;
         text-align: center;
     }
 
     .action-title p {
-        font-size: 20px;
+        /* texto unidade basica de saude ...*/
+        font-size: 15px;
         width: auto;
         align-items: center;
         text-align: center;
-        margin-top: 50px;
-    }
-
-    .ebook-2 img {
-        /* imagem do mapa*/
-        align-items: center;
-
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .mapa {
@@ -358,12 +402,22 @@ footer img {
         justify-content: center;
         margin-left: 0px;
     }
+    .ebook-2 iframe {
+        /* imagem do mapa*/
+        align-items: center;
+        margin-top: 20px;
+        width: 400px;
+
+    }
 
     .section-3 {
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-top: 50px;
+       
     }
+    
 
     .action-title-2 p {
         font-size: 20px;
@@ -374,6 +428,7 @@ footer img {
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-top: 0;
 
 
     }
@@ -381,6 +436,7 @@ footer img {
     .card-1 {
         display: flex;
         align-items: center;
+        margin-top: 0;
 
     }
 
@@ -393,7 +449,7 @@ footer img {
     .card-2 {
         display: flex;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .card-2 h1 {
@@ -403,8 +459,13 @@ footer img {
 
     .card-1 img {
         display: flex;
-        margin-top: 5px;
+        margin-top: 0;
         align-items: center;
+    }
+
+    .ebook-1 img {
+        /* imagem da nossa estrutura*/
+        margin-top: 30px;
     }
 
     footer {
