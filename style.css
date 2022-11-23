@@ -26,6 +26,7 @@ Header .logo {
     background-image: url(./imagens/background-logo.jpeg);
     border-radius: 16px;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .logo p {
@@ -89,11 +90,12 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 16px;
-    max-width: 800px;
+    max-width: 750px;
     justify-content: center;
     margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.clique {
+.clique { /* botão de procurar ubs */
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -118,7 +120,7 @@ h1 {
     background: rgb(60, 120, 218);
     transition: background 1s;
 }
- h4 {
+ h4 { /* titulo a cima do botão clique aqui*/
     text-align: center;
  }
 
@@ -149,7 +151,7 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.section-2 {
+.section-2 { /* container 2 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,6 +212,7 @@ h1 {
     border: 1px solid blue;
     border-radius: 50%;
     margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     
 }
 
@@ -250,10 +253,11 @@ h1 {
     width: 100%;
     margin-left: 40px;
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin-right: 40px;
     border-radius: 16px;
     margin-top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 
